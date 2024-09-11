@@ -13,10 +13,18 @@ const NavBar = () => {
         <img className="mx-2 w-20" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaXTwitter />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/ahbarajaib/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/ahbarajaib">
+          <FaGithub />
+        </a>
+        <a href="https://x.com/ahbarajaib">
+          <FaXTwitter />
+        </a>
+        <a href="https://www.instagram.com/ahbarajaib/">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
