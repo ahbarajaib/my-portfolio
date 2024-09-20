@@ -5,6 +5,10 @@ import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
+import { RiFirebaseFill } from "react-icons/ri";
+import { FaGitAlt } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -42,7 +46,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-6xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -50,7 +54,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl " />
+          <TbBrandNextjs className="text-6xl " />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -58,7 +62,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <SiMongodb className="text-6xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -66,7 +70,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <DiRedis className="text-7xl text-red-700" />
+          <DiRedis className="text-6xl text-red-700" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -74,7 +78,7 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <FaNodeJs className="text-6xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(4)}
@@ -82,7 +86,39 @@ export const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-7xl text-sky-700" />
+          <BiLogoPostgresql className="text-6xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiFirebaseFill className="text-6xl text-yellow-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaGitAlt className="text-6xl text-orange-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <RiTailwindCssFill className="text-6xl text-blue-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-6xl text-blue-800" />
         </motion.div>
       </motion.div>
     </div>

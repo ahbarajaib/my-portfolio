@@ -1,7 +1,14 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
+import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/project-7.jpg";
+import project8 from "../assets/projects/project-8.jpg";
+import project9 from "../assets/projects/project-9.jpg";
+import project10 from "../assets/projects/project-10.jpg";
+import project11 from "../assets/projects/project-11.jpg";
 
 export const HERO_CONTENT = `I am a results-driven MERN Stack Developer with a Master's in Computer Applications and a proven track record in building dynamic and high-performance web applications. With expertise in JavaScript, React.js, and Node.js, I excel at creating scalable solutions and delivering exceptional user experiences. My passion for coding and commitment to staying updated with the latest industry trends enable me to develop innovative web solutions that meet and exceed client expectations.`;
 
@@ -39,32 +46,81 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Commerce Website for a Retail Trader",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce platform designed for a retail trader of spices. Features include product listing, shopping cart, secure payment gateway, and a comprehensive admin dashboard for managing inventory, orders, and users.",
+    technologies: ["React", "Node.js", "MongoDB", "Express", "CSS"],
+  },
+  {
+    title: "Car Wash Booking Website",
+    image: project2,
+    description:
+      "An intuitive car wash booking platform built with TypeScript and Tailwind. It features a secure payment gateway, user-friendly booking system, and an admin dashboard for managing services, bookings, and customer details.",
+    technologies: ["React", "Node.js", "TypeScript", "Tailwind", "MongoDB"],
   },
   {
     title: "Task Management App",
-    image: project2,
+    image: project3,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A productivity app for managing tasks and projects, allowing users to create, assign, and track progress. It includes real-time updates, user authentication, and a dashboard for seamless collaboration.",
+    technologies: ["React", "Node.js", "MongoDB", "Firebase Authentication"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A professional portfolio website to showcase skills, projects, and contact details. It includes responsive design, optimized performance, and a clean user interface to make a strong first impression.",
+    technologies: ["React", "Bootstrap", "Node.js", "CSS"],
   },
   {
     title: "Blogging Platform",
-    image: project4,
+    image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A dynamic platform for creating and publishing blog posts. Features include rich text editing, user authentication, commenting system, and user profiles, offering a complete blogging experience.",
+    technologies: ["React.js", "Express", "MongoDB", "Node.js"],
+  },
+  {
+    title: "Real Estate Landing Page",
+    image: project6,
+    description:
+      "A high-conversion landing page for real estate businesses. Includes property listings, contact forms, and an optimized layout for mobile and desktop.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap"],
+  },
+  {
+    title: "Jewellery Store Landing Page",
+    image: project7,
+    description:
+      "An elegant landing page designed for luxury jewellery businesses. Features a product showcase, customer testimonials, and secure payment options for seamless shopping.",
+    technologies: ["React", "HTML", "CSS", "Tailwind"],
+  },
+  {
+    title: "Spa & Wellness Landing Page",
+    image: project8,
+    description:
+      "A soothing and visually appealing landing page for spa and wellness centers. Designed to highlight services, customer reviews, and a booking form for easy appointment scheduling.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap"],
+  },
+  {
+    title: "Restaurant & Café Landing Page",
+    image: project9,
+    description:
+      "A visually stunning landing page for restaurants and cafés, showcasing the menu, chef’s specials, and an easy-to-use reservation system.",
+    technologies: ["React", "HTML", "CSS", "Tailwind"],
+  },
+  {
+    title: "Automotive Services Landing Page",
+    image: project10,
+    description:
+      "A sleek and modern landing page for automotive services, featuring service details, customer testimonials, and a contact form for appointment scheduling.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap"],
+  },
+  {
+    title: "Wholesale Trader/Exporter Landing Page",
+    image: project11,
+    description:
+      "A specialized landing page for a wholesale trader/exporter dealing in rice, wheat, and similar commodities. It highlights products, certifications, and a simple contact form for inquiries.",
+    technologies: ["React", "HTML", "CSS", "Bootstrap"],
   },
 ];
 
