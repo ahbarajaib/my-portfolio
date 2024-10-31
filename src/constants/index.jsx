@@ -19,30 +19,66 @@ export const EXPERIENCES = [
     year: "August 2023 - Present",
     role: "Full Stack Developer",
     company: "Shahi Kohinoor",
-    description: `Developed multiple web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) for various clients. Collaborated directly with clients to gather requirements, design UI/UX, and implement backend functionalities. Implemented robust authentication and authorization mechanisms using JWT and integrated third-party APIs. Conducted thorough testing and debugging to ensure high performance and scalability.`,
+    description: (
+      <ul className="list-disc pl-5 mb-4 text-neutral-400">
+        <li>Developed multiple web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) for various clients.</li>
+        <li>Collaborated directly with clients to gather requirements, design UI/UX, and implement backend functionalities.</li>
+        <li>Implemented robust authentication and authorization mechanisms using JWT and integrated third-party APIs.</li>
+        <li>Conducted thorough testing and debugging to ensure high performance and scalability.</li>
+      </ul>
+    ),
     technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "JWT"],
   },
   {
     year: "June 2022 - July 2023",
     role: "Freelance Full Stack Web Developer",
-    description: `Worked on diverse web projects utilizing the MERN stack. Engaged with clients to understand their needs, designed and implemented web solutions, and managed project timelines. Applied best practices for authentication, performance optimization, and integration of third-party services.`,
+    description: (
+      <ul className="list-disc pl-5 mb-4 text-neutral-400">
+        <li>Worked on diverse web projects utilizing the MERN stack.</li>
+        <li>Engaged with clients to understand their needs, designed and implemented web solutions, and managed project timelines.</li>
+        <li>Applied best practices for authentication, performance optimization, and integration of third-party services.</li>
+      </ul>
+    ),
     technologies: ["JavaScript", "React.js", "Node.js", "MongoDB"],
   },
   {
     year: "October 2020 - May 2022",
     role: "Software Developer",
     company: "DXC Technology",
-    description: `Led the development of a MERN stack e-commerce grocery platform. Designed a responsive UI, built a secure back-end, and implemented user authentication with Redux for state management. Integrated third-party APIs and optimized application performance.`,
-    technologies: ["JavaScript", "React.js", "Node.js", "MongoDB", "Redux"],
+    description: (
+      <ul className="list-disc pl-5 mb-4 text-neutral-400">
+        <li>Delivered urgent technical support for audiovisual hardware
+issues at high-stakes global Microsoft conferences,
+demonstrating exceptional troubleshooting skills under pressure.</li>
+        <li>Diagnosed and resolved technical issues with a variety of
+audiovisual equipment, effectively communicating solutions to
+both technical and non-technical stakeholders.</li>
+        <li>Collaborated with cross-functional teams to swiftly resolve
+complex issues, minimizing downtime and enhancing operational
+efficiency.</li>
+        <li>Proactively identified potential problems and implemented
+strategic solutions, contributing to the smooth functioning of
+critical conference operations.</li>
+      </ul>
+    ),
+    technologies: [],
   },
   {
     year: "October 2018 - November 2019",
-    role: "Associate Software Developer",
+    role: "Process Executive",
     company: "Infosys Limited",
-    description: `Contributed to various software development projects, focusing on front-end and back-end tasks. Collaborated with teams to design and implement features, debugged code, and optimized application performance.`,
-    technologies: ["JavaScript", "HTML", "CSS", "React.js"],
+    description: (
+      <ul className="list-disc pl-5 mb-4 text-neutral-400">
+        <li>Provided technical support for audiovisual issues at global Microsoft conferences, ensuring smooth event execution.</li>
+        <li>Diagnosed and resolved issues with audiovisual equipment, delivering clear solutions.</li>
+        <li>Collaborated with cross-functional teams to quickly address complex issues, minimizing downtime.</li>
+        <li>Proactively identified and addressed potential problems, enhancing efficiency in a fast-paced environment.</li>
+      </ul>
+    ),
+    technologies: [],
   },
 ];
+
 
 export const PROJECTS = [
   {
