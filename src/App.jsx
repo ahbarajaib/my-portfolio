@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import { Experience } from "./components/Experience";
@@ -5,8 +6,9 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import { Technologies } from "./components/Technologies";
+import Admin from "./components/Admin";
 
-const App = () => {
+const Portfolio = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300">
       <div className="fixed top-0 -z-10 h-full w-full">
@@ -22,6 +24,17 @@ const App = () => {
         <Contact />
       </div>
     </div>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/admin" element={<Admin />} />
+      </Routes>
+    </Router>
   );
 };
 

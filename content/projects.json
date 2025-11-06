@@ -1,0 +1,68 @@
+[
+  {
+    "title": "E-Commerce Website for a Retail Trader",
+    "image": "/src/assets/projects/project-1.jpeg",
+    "description": "A fully functional e-commerce platform designed for a retail trader of spices. Features include product listing, shopping cart, secure payment gateway, and a comprehensive admin dashboard for managing inventory, orders, and users.",
+    "technologies": ["React", "Node.js", "MongoDB", "Express", "CSS"]
+  },
+  {
+    "title": "Car Wash Booking Website",
+    "image": "/src/assets/projects/project-2.jpeg",
+    "description": "An intuitive car wash booking platform built with TypeScript and Tailwind. It features a secure payment gateway, user-friendly booking system, and an admin dashboard for managing services, bookings, and customer details.",
+    "technologies": ["React", "Node.js", "TypeScript", "Tailwind", "MongoDB"]
+  },
+  {
+    "title": "Task Management App",
+    "image": "/src/assets/projects/project-3.jpg",
+    "description": "A productivity app for managing tasks and projects, allowing users to create, assign, and track progress. It includes real-time updates, user authentication, and a dashboard for seamless collaboration.",
+    "technologies": ["React", "Node.js", "MongoDB", "Firebase Authentication"]
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/src/assets/projects/project-4.jpg",
+    "description": "A professional portfolio website to showcase skills, projects, and contact details. It includes responsive design, optimized performance, and a clean user interface to make a strong first impression.",
+    "technologies": ["React", "Bootstrap", "Node.js", "CSS"]
+  },
+  {
+    "title": "Blogging Platform",
+    "image": "/src/assets/projects/project-5.jpg",
+    "description": "A dynamic platform for creating and publishing blog posts. Features include rich text editing, user authentication, commenting system, and user profiles, offering a complete blogging experience.",
+    "technologies": ["React.js", "Express", "MongoDB", "Node.js"]
+  },
+  {
+    "title": "Real Estate Landing Page",
+    "image": "/src/assets/projects/project-6.jpg",
+    "description": "A high-conversion landing page for real estate businesses. Includes property listings, contact forms, and an optimized layout for mobile and desktop.",
+    "technologies": ["React", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "title": "Jewellery Store Landing Page",
+    "image": "/src/assets/projects/project-7.jpg",
+    "description": "An elegant landing page designed for luxury jewellery businesses. Features a product showcase, customer testimonials, and secure payment options for seamless shopping.",
+    "technologies": ["React", "HTML", "CSS", "Tailwind"]
+  },
+  {
+    "title": "Spa & Wellness Landing Page",
+    "image": "/src/assets/projects/project-8.jpg",
+    "description": "A soothing and visually appealing landing page for spa and wellness centers. Designed to highlight services, customer reviews, and a booking form for easy appointment scheduling.",
+    "technologies": ["React", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "title": "Restaurant & Café Landing Page",
+    "image": "/src/assets/projects/project-9.jpg",
+    "description": "A visually stunning landing page for restaurants and cafés, showcasing the menu, chef's specials, and an easy-to-use reservation system.",
+    "technologies": ["React", "HTML", "CSS", "Tailwind"]
+  },
+  {
+    "title": "Automotive Services Landing Page",
+    "image": "/src/assets/projects/project-10.jpg",
+    "description": "A sleek and modern landing page for automotive services, featuring service details, customer testimonials, and a contact form for appointment scheduling.",
+    "technologies": ["React", "HTML", "CSS", "Bootstrap"]
+  },
+  {
+    "title": "Wholesale Trader/Exporter Landing Page",
+    "image": "/src/assets/projects/project-11.jpg",
+    "description": "A specialized landing page for a wholesale trader/exporter dealing in rice, wheat, and similar commodities. It highlights products, certifications, and a simple contact form for inquiries.",
+    "technologies": ["React", "HTML", "CSS", "Bootstrap"]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "Ahbar Ajaib",
+  "title": "Full Stack Developer",
+  "heroContent": "I am a results-driven MERN Stack Developer with a Master's in Computer Applications and a proven track record in building dynamic and high-performance web applications. With expertise in JavaScript, React.js, and Node.js, I excel at creating scalable solutions and delivering exceptional user experiences. My passion for coding and commitment to staying updated with the latest industry trends enable me to develop innovative web solutions that meet and exceed client expectations.",
+  "aboutText": "I am a dedicated MERN Stack Developer with a Master's in Computer Applications and hands-on experience in designing and developing robust web solutions. Over the past few years, I've had the opportunity to work on a variety of projects, from e-commerce platforms to real-time dashboards, leveraging my skills in JavaScript, React.js, and Node.js. My approach is to combine a deep understanding of front-end and back-end technologies with a proactive mindset towards problem-solving and code optimization. I thrive in collaborative environments, enjoy tackling complex challenges, and am committed to delivering high-quality applications. Outside of coding, I stay active by keeping up with industry trends and continuously learning new technologies.",
+  "profileImage": "/src/assets/ahbarAjaibProfile.png",
+  "aboutImage": "/src/assets/about.jpg"
+}
