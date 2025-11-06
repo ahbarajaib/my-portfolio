@@ -57,20 +57,22 @@ const CustomCursor = () => {
         animate={cursorVariant}
         transition={{
           type: "spring",
-          stiffness: 500,
-          damping: 28,
+          stiffness: 1500,
+          damping: 30,
+          mass: 0.3,
         }}
       />
       <motion.div
-        className="fixed top-0 left-0 w-1 h-1 bg-cyan-400 rounded-full pointer-events-none z-50"
+        className="fixed top-0 left-0 w-1.5 h-1.5 bg-cyan-400 rounded-full pointer-events-none z-50"
         animate={{
-          x: mousePosition.x - 2,
-          y: mousePosition.y - 2,
+          x: mousePosition.x - 3,
+          y: mousePosition.y - 3,
         }}
         transition={{
           type: "spring",
-          stiffness: 1000,
-          damping: 50,
+          stiffness: 2500,
+          damping: 35,
+          mass: 0.2,
         }}
       />
     </>
