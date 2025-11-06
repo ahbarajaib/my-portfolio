@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../constants";
+import profileData from "../../content/profile.json";
 import profilePic from "../assets/ahbarAjaibProfile.png";
 import { motion } from "framer-motion";
 
@@ -23,7 +24,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt:16 lg:text-8xl"
             >
-              Ahbar Ajaib
+              {profileData.name}
             </motion.h1>
             <motion.span
               variants={container(0.5)}
@@ -31,7 +32,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full Stack Developer
+              {profileData.title}
             </motion.span>
             <motion.p
               variants={container(1)}

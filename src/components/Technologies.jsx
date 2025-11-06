@@ -9,6 +9,21 @@ import { RiFirebaseFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import technologiesData from "../../content/technologies.json";
+
+// Icon mapping object
+const iconMap = {
+  RiReactjsLine,
+  TbBrandNextjs,
+  SiMongodb,
+  DiRedis,
+  FaNodeJs,
+  BiLogoPostgresql,
+  RiFirebaseFill,
+  FaGitAlt,
+  RiTailwindCssFill,
+  SiTypescript,
+};
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -40,86 +55,21 @@ export const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        <motion.div
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiReactjsLine className="text-6xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <TbBrandNextjs className="text-6xl " />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiMongodb className="text-6xl text-green-500" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <DiRedis className="text-6xl text-red-700" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaNodeJs className="text-6xl text-green-500" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <BiLogoPostgresql className="text-6xl text-sky-700" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(1.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiFirebaseFill className="text-6xl text-yellow-500" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <FaGitAlt className="text-6xl text-orange-700" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(4.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <RiTailwindCssFill className="text-6xl text-blue-400" />
-        </motion.div>
-        <motion.div
-          variants={iconVariants(5.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiTypescript className="text-6xl text-blue-800" />
-        </motion.div>
+        {technologiesData.map((tech, index) => {
+          const IconComponent = iconMap[tech.icon];
+          return (
+            <motion.div
+              key={index}
+              variants={iconVariants(tech.duration)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4"
+              title={tech.name}
+            >
+              {IconComponent && <IconComponent className={`text-6xl ${tech.color}`} />}
+            </motion.div>
+          );
+        })}
       </motion.div>
     </div>
   );
