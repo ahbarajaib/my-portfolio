@@ -1,48 +1,84 @@
 [
   {
-    "year": "August 2023 - Present",
+    "year": "Feb 2025 – Present",
+    "role": "WordPress Developer",
+    "company": "Infinitus International FZE",
+    "location": "Dubai, UAE",
+    "type": "fullstack",
+    "description": [
+      "Built a full-stack, high-converting electronics e-commerce platform using WordPress (WoodMart theme), WooCommerce, PHP, and ACF.",
+      "Developed custom features: Buyback system, Repair booking, and Renewed phones section with dynamic JavaScript and ACF logic.",
+      "Achieved 80%+ performance score on PageSpeed.dev via script deferral, lazy loading, and minimal plugin footprint.",
+      "Customized checkout flows with conditional logic, cash discounts, surprise gift automation, and in-store pickup options."
+    ],
+    "technologies": ["WordPress", "WooCommerce", "PHP", "JavaScript", "ACF", "Elementor Pro", "CSS"]
+  },
+  {
+    "year": "Aug 2024 – Jan 2025",
+    "role": "React Native Developer",
+    "company": "Personal Project",
+    "location": "Dubai, UAE",
+    "type": "mobile",
+    "description": [
+      "Built a robust React Native Expo application supporting both Android and iOS with seamless performance.",
+      "Implemented React Navigation, Redux Toolkit for state management, and Firebase Authentication with JWT.",
+      "Integrated a Node.js (TypeScript) + MongoDB backend ensuring reliable data handling and scalable architecture.",
+      "Optimized performance through lazy loading, dynamic imports, and caching strategies."
+    ],
+    "technologies": ["React Native", "TypeScript", "Expo", "Redux Toolkit", "Firebase", "Node.js", "MongoDB", "JWT"]
+  },
+  {
+    "year": "Jun 2023 – Aug 2024",
     "role": "Full Stack Developer",
-    "company": "Shahi Kohinoor",
+    "company": "Shahi Kohinoor LLC",
+    "location": "Dubai, UAE",
+    "type": "fullstack",
     "description": [
-      "Developed multiple web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) for various clients.",
-      "Collaborated directly with clients to gather requirements, design UI/UX, and implement backend functionalities.",
-      "Implemented robust authentication and authorization mechanisms using JWT and integrated third-party APIs.",
-      "Conducted thorough testing and debugging to ensure high performance and scalability."
+      "Built high-performance React and Next.js web applications with Redux Toolkit state management.",
+      "Developed scalable backend APIs and business workflows with Node.js and Express.",
+      "Implemented real-time systems using WebSockets and leveraged MongoDB aggregation pipelines for complex querying.",
+      "Configured NGINX servers, CI/CD pipelines, and managed cloud deployments on Vercel."
     ],
-    "technologies": ["JavaScript", "React.js", "Node.js", "MongoDB", "JWT"]
+    "technologies": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Redux Toolkit", "Tailwind CSS", "WebSockets", "NGINX", "Vercel"]
   },
   {
-    "year": "June 2022 - July 2023",
-    "role": "Freelance Full Stack Web Developer",
-    "company": "",
+    "year": "Jun 2022 – May 2023",
+    "role": "Full Stack Developer",
+    "company": "Freelance",
+    "location": "Dubai, UAE",
+    "type": "fullstack",
     "description": [
-      "Worked on diverse web projects utilizing the MERN stack.",
-      "Engaged with clients to understand their needs, designed and implemented web solutions, and managed project timelines.",
-      "Applied best practices for authentication, performance optimization, and integration of third-party services."
+      "Delivered end-to-end web development services, crafting scalable applications for diverse clients.",
+      "Built dynamic React UIs, robust Node.js/Express backends, and optimized MongoDB schemas.",
+      "Implemented JWT authentication, CI/CD pipelines via GitHub Actions, and deployed on Vercel.",
+      "Used WebSocket technology for real-time updates and employed Vite/Webpack for build optimization."
     ],
-    "technologies": ["JavaScript", "React.js", "Node.js", "MongoDB"]
+    "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT", "WebSockets", "Vite", "GitHub Actions"]
   },
   {
-    "year": "October 2020 - May 2022",
-    "role": "Software Developer",
+    "year": "Oct 2020 – May 2022",
+    "role": "Backend Developer",
     "company": "DXC Technology",
+    "location": "Bangalore, India",
+    "type": "backend",
     "description": [
-      "Delivered urgent technical support for audiovisual hardware issues at high-stakes global Microsoft conferences, demonstrating exceptional troubleshooting skills under pressure.",
-      "Diagnosed and resolved technical issues with a variety of audiovisual equipment, effectively communicating solutions to both technical and non-technical stakeholders.",
-      "Collaborated with cross-functional teams to swiftly resolve complex issues, minimizing downtime and enhancing operational efficiency.",
-      "Proactively identified potential problems and implemented strategic solutions, contributing to the smooth functioning of critical conference operations."
+      "Built clean, modular web-based applications using Node.js, Express.js, and MongoDB in an agile environment.",
+      "Coordinated with cross-functional teams to gather requirements and authored 10+ BRD and technical documents.",
+      "Developed server-based Node.js applications and contributed to progressive web application development.",
+      "Collaborated on a progressive web app, establishing clear technical requirements and a consistent feedback loop."
     ],
-    "technologies": []
+    "technologies": ["Node.js", "Express.js", "MongoDB", "JavaScript", "HTML5"]
   },
   {
-    "year": "October 2018 - November 2019",
+    "year": "Jun 2019 – Jul 2020",
     "role": "Process Executive",
-    "company": "Infosys Limited",
+    "company": "Infosys Ltd",
+    "location": "Bangalore, India",
+    "type": "other",
     "description": [
-      "Provided technical support for audiovisual issues at global Microsoft conferences, ensuring smooth event execution.",
-      "Diagnosed and resolved issues with audiovisual equipment, delivering clear solutions.",
-      "Collaborated with cross-functional teams to quickly address complex issues, minimizing downtime.",
-      "Proactively identified and addressed potential problems, enhancing efficiency in a fast-paced environment."
+      "Provided quality customer service resolving billing, plan changes, and account issues.",
+      "Demonstrated strong communication skills with customers from diverse backgrounds.",
+      "Handled high-volume inbound inquiries with a focus on positive customer experience."
     ],
     "technologies": []
   }

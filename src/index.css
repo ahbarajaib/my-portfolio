@@ -1,8 +1,222 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
+/* ──────────────────────────────────────────
+   Design Tokens
+────────────────────────────────────────── */
 :root {
-  font-family: "Inter", sans-serif;
+  --bg-base: #07070f;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --bg-card-hover: rgba(168, 85, 247, 0.06);
+  --primary: #7c3aed;
+  --primary-light: #a855f7;
+  --primary-glow: rgba(168, 85, 247, 0.25);
+  --primary-glow-sm: rgba(168, 85, 247, 0.12);
+  --accent: #06b6d4;
+  --text-primary: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --border: rgba(168, 85, 247, 0.18);
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --radius: 16px;
+  --radius-sm: 8px;
+  --radius-lg: 24px;
+}
+
+/* ──────────────────────────────────────────
+   Reset & Base
+────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* ──────────────────────────────────────────
+   Scrollbar
+────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-light);
+}
+
+/* ──────────────────────────────────────────
+   Selection
+────────────────────────────────────────── */
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* ──────────────────────────────────────────
+   Keyframe Animations
+────────────────────────────────────────── */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px var(--primary-glow), 0 0 60px var(--primary-glow-sm); }
+  50%       { box-shadow: 0 0 35px var(--primary-glow), 0 0 90px var(--primary-glow-sm); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+
+@keyframes badge-float {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50%       { transform: translateY(-5px) scale(1.02); }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ──────────────────────────────────────────
+   Utility Classes
+────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #a855f7, #7c3aed, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-animated {
+  background: linear-gradient(270deg, #a855f7, #7c3aed, #06b6d4, #a855f7);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 4s ease infinite;
+}
+
+.glow-border {
+  border: 1px solid var(--border);
+  box-shadow: 0 0 20px var(--primary-glow-sm), inset 0 0 20px rgba(168, 85, 247, 0.03);
+}
+
+.card-base {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.card-base:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border);
+  box-shadow: 0 8px 32px var(--primary-glow-sm), 0 0 0 1px var(--border);
+  transform: translateY(-2px);
+}
+
+/* ──────────────────────────────────────────
+   Section Layout
+────────────────────────────────────────── */
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 64px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--border-subtle);
+  margin: 0;
+}
+
+/* ──────────────────────────────────────────
+   Tag / Badge
+────────────────────────────────────────── */
+.tech-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  background: rgba(124, 58, 237, 0.15);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  color: var(--primary-light);
+  letter-spacing: 0.02em;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.category-badge.ai     { background: rgba(168,85,247,0.15); border: 1px solid rgba(168,85,247,0.35); color: #c084fc; }
+.category-badge.full-stack { background: rgba(6,182,212,0.12); border: 1px solid rgba(6,182,212,0.3); color: #22d3ee; }
+.category-badge.mobile { background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.3); color: #86efac; }
+.category-badge.web    { background: rgba(249,115,22,0.1); border: 1px solid rgba(249,115,22,0.3); color: #fdba74; }
+
+/* ──────────────────────────────────────────
+   Typewriter cursor
+────────────────────────────────────────── */
+.Typewriter__cursor {
+  color: var(--primary-light);
+  animation: blink 1s step-end infinite;
 }

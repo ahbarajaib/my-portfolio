@@ -1,0 +1,42 @@
+[
+  {
+    "title": "LLM Integration",
+    "icon": "brain",
+    "description": "OpenAI & Anthropic APIs, chat completions, context management, and multi-turn conversation design."
+  },
+  {
+    "title": "RAG Pipelines",
+    "icon": "database",
+    "description": "Retrieval-Augmented Generation with vector databases, embedding models, and semantic search for grounded AI responses."
+  },
+  {
+    "title": "Tool Calling",
+    "icon": "wrench",
+    "description": "Structured function calling workflows enabling AI to execute backend logic, query databases, and interact with APIs."
+  },
+  {
+    "title": "Streaming Responses",
+    "icon": "zap",
+    "description": "Server-sent events and WebSocket-based streaming for real-time, token-by-token AI output in production UIs."
+  },
+  {
+    "title": "Prompt Engineering",
+    "icon": "pencil",
+    "description": "System prompt design, few-shot examples, chain-of-thought reasoning, and output formatting for reliable AI behavior."
+  },
+  {
+    "title": "Agentic Workflows",
+    "icon": "cpu",
+    "description": "Multi-step AI agents with memory, planning, and tool-use orchestration for autonomous task completion."
+  },
+  {
+    "title": "Context Management",
+    "icon": "layers",
+    "description": "Token budget optimization, conversation windowing, and memory strategies for long-running AI sessions."
+  },
+  {
+    "title": "Full Stack AI Apps",
+    "icon": "code",
+    "description": "End-to-end AI application development — React frontends, Node.js backends, and production-ready AI infrastructure."
+  }
+]

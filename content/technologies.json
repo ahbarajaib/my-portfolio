@@ -1,62 +1,14 @@
 [
-  {
-    "name": "React",
-    "icon": "RiReactjsLine",
-    "color": "text-cyan-400",
-    "duration": 2.5
-  },
-  {
-    "name": "Next.js",
-    "icon": "TbBrandNextjs",
-    "color": "",
-    "duration": 3
-  },
-  {
-    "name": "MongoDB",
-    "icon": "SiMongodb",
-    "color": "text-green-500",
-    "duration": 5
-  },
-  {
-    "name": "Redis",
-    "icon": "DiRedis",
-    "color": "text-red-700",
-    "duration": 2
-  },
-  {
-    "name": "Node.js",
-    "icon": "FaNodeJs",
-    "color": "text-green-500",
-    "duration": 6
-  },
-  {
-    "name": "PostgreSQL",
-    "icon": "BiLogoPostgresql",
-    "color": "text-sky-700",
-    "duration": 4
-  },
-  {
-    "name": "Firebase",
-    "icon": "RiFirebaseFill",
-    "color": "text-yellow-500",
-    "duration": 1.5
-  },
-  {
-    "name": "Git",
-    "icon": "FaGitAlt",
-    "color": "text-orange-700",
-    "duration": 4.5
-  },
-  {
-    "name": "Tailwind CSS",
-    "icon": "RiTailwindCssFill",
-    "color": "text-blue-400",
-    "duration": 4.5
-  },
-  {
-    "name": "TypeScript",
-    "icon": "SiTypescript",
-    "color": "text-blue-800",
-    "duration": 5.5
-  }
+  { "name": "React", "icon": "RiReactjsLine", "color": "text-cyan-400", "duration": 2.5 },
+  { "name": "Next.js", "icon": "TbBrandNextjs", "color": "text-white", "duration": 3 },
+  { "name": "TypeScript", "icon": "SiTypescript", "color": "text-blue-500", "duration": 2 },
+  { "name": "Tailwind CSS", "icon": "RiTailwindCssFill", "color": "text-cyan-300", "duration": 2.8 },
+  { "name": "Node.js", "icon": "FaNodeJs", "color": "text-green-500", "duration": 2.2 },
+  { "name": "MongoDB", "icon": "SiMongodb", "color": "text-green-400", "duration": 3.5 },
+  { "name": "PostgreSQL", "icon": "BiLogoPostgresql", "color": "text-sky-500", "duration": 2 },
+  { "name": "Prisma", "icon": "SiPrisma", "color": "text-slate-300", "duration": 3 },
+  { "name": "Firebase", "icon": "RiFirebaseFill", "color": "text-yellow-500", "duration": 2.5 },
+  { "name": "Git", "icon": "FaGitAlt", "color": "text-orange-600", "duration": 2 },
+  { "name": "OpenAI", "icon": "SiOpenai", "color": "text-neutral-100", "duration": 3.2 },
+  { "name": "Vercel", "icon": "SiVercel", "color": "text-white", "duration": 2.7 }
 ]
